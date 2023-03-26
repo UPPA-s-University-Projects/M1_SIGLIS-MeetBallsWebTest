@@ -18,8 +18,8 @@
 <body style="background: #d2738d;">
     <header>
         <nav class="navbar navbar-light navbar-expand-md py-3" style="background: #8dd273;">
-            <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="background: rgba(13,110,253,0);"></span><span style="color: rgb(210,115,141);font-family: 'Alex Brush', serif;font-size: 32px;font-weight: bold;">MeetBalls</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-2">
+            <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="background: rgba(13,110,253,0);"></span><span style="color: rgb(210,115,141);font-family: 'Alex Brush', serif;font-size: 32px;font-weight: bold;">MeetBalls</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item"><a class="nav-link active" href="#">Who are we ?</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Assistance</a></li>
@@ -30,7 +30,12 @@
         </nav>
     </header>
     <section style="min-height: 512px;padding: 32px;">
-        <div style="text-align: center;padding: 64px;"><img width="100" height="80"></div>
+        <div class="d-lg-flex justify-content-lg-start" style="text-align: center;padding: 64px;">
+            <div style="padding: 16px;">
+                <h1 style="text-align: left;">The Team</h1>
+                <p class="text-start">Meet the team!<br>Our team is composed of Brice Arbouille, Clément Combier, Elie Pierrot, Matéo<br>Drouillard and Mouhammed Nour Eddine Ettayeb. Matéo and Clément worked on the<br>front and the back-end respectively, Mouhammed helped design the database model<br>while Brice and Elie did all the design work and project management.</p>
+            </div><img width="496" height="271" src="assets/img/the_team.png">
+        </div>
     </section>
     <footer style="background: #ffffff;position: relative;">
         <div class="container py-4 py-lg-5">
